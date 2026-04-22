@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.characters-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-top:20px ;
+  margin-top: 10px;
+}
+.character-card {
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+.character-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.character-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;  
+
+}
+
+.character-card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+.character-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}   
+
+.alive-status, .dead-status {
+  font-weight: bold;
+}
+
+.alive {
+  /* hacer una bolita */
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  
+   
+
+}
+.dead {
+  /* hacer una bolita */
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.img-header {
+  width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btn-search {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.back-home{
+  color: #818881;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+
+.btn-details {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
